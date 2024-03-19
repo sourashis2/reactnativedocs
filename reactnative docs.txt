@@ -1,0 +1,36 @@
+// tailwind.config.js
+module.exports = {
+  content: [
+    "./screens/**/*.{js,ts,jsx,tsx}",
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}",
+  ],
+  // ...
+};
+
+npm install nativewind
+npm install --dev tailwindcss@3.3.2 
+
+
+npm remove nativewind
+npm remove tailwindcss
+y add postcss@8.4.23
+yarn add --dev tailwindcss@3.3.2
+yarn add nativewind
+
+
+*TO SET TELIWIND FOR CSS*
+
+npm install nativewind
+npm install tailwindcss@3.3.2 --save dev
+
+Run npx tailwindcss init to create a tailwind.config.js file
+
+CHANGE THIS: + content: ["./App.{js,jsx,ts,tsx}", "./screens/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
+
+ADD PLUGIN in babel.config.js => plugins: ["nativewind/babel"],
+
+*READY*
+
+
+
